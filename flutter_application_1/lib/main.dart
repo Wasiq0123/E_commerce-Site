@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/screen-one.dart';
+import 'package:flutter_application_1/pages/screen_five.dart';
+import 'package:flutter_application_1/pages/screen_four.dart';
+import 'package:flutter_application_1/pages/singn_up.dart';
 import 'package:flutter_application_1/pages/splash_screen.dart';
 
 import 'pages/screen_three.dart';
@@ -20,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Screenthree(),
+      home: const ScreenFive(),
     );
   }
 }

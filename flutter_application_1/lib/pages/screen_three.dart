@@ -48,7 +48,9 @@ class _ScreenthreeState extends State<Screenthree> {
                         ),
                       ),
                     ),
-                    Image.asset('')
+                    Align(
+                        alignment: Alignment.centerLeft,
+                        child: Image.asset('assets/image/facebook.png'))
                   ],
                 ),
               ),
