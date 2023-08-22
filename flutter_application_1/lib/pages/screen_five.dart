@@ -34,8 +34,6 @@ class _ScreenFiveState extends State<ScreenFive> {
                 const SizedBox(
                   height: 5,
                 ),
-
-                // Wasiq0123
                 const Text(
                   'Please enter your data to continue',
                   style: TextStyle(
